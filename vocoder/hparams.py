@@ -19,6 +19,7 @@ bits = 9                            # bit depth of signal
 mu_law = True                       # Recommended to suppress noise if using raw bits in hp.voc_mode
                                     # below
 
+## changed utter
 
 # WAVERNN / VOCODER --------------------------------------------------------------------------------
 voc_mode = 'RAW'                    # either 'RAW' (softmax on raw bits) or 'MOL' (sample from 

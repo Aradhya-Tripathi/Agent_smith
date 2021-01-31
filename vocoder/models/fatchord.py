@@ -85,6 +85,7 @@ class UpsampleNetwork(nn.Module):
         return m.transpose(1, 2), aux.transpose(1, 2)
 
 
+##from 60 ops to 5 ops 
 class WaveRNN(nn.Module):
     def __init__(self, rnn_dims, fc_dims, bits, pad, upsample_factors,
                  feat_dims, compute_dims, res_out_dims, res_blocks,
